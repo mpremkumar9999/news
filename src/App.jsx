@@ -13,10 +13,10 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<News country="us" category="general" apiKey={apiKey} />} />
+          <Route path="/" element={<News country="in" category="general" apiKey={apiKey} />} />
           <Route path="/business" element={<News country="in" category="business" apiKey={apiKey} />} />
-          <Route path="/entertainment" element={<News country="us" category="entertainment" apiKey={apiKey} />} />
-          <Route path="/sports" element={<News country="us" category="sports" apiKey={apiKey} />} />
+          <Route path="/entertainment" element={<News country="in" category="entertainment" apiKey={apiKey} />} />
+          <Route path="/sports" element={<News country="in" category="sports" apiKey={apiKey} />} />
         </Routes>
         <Footer/>
       </div>
